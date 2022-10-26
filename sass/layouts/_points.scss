@@ -1,0 +1,40 @@
+.points.section {
+    padding-bottom: 0;
+}
+
+.points-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.point-icon {
+    height: 120px;
+    display: flex;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.point-item {
+    width: 25%;
+}
+
+.point-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.point-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondery-color);
+}
