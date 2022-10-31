@@ -2,7 +2,7 @@
   border-bottom: 1px solid #ececec;
 }
 
-.main-div {
+.header__container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -14,41 +14,46 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-decoration: none;
-  color: #000000;
-}
-
-.logo-footer {
-  color: var(--secondery-color-text);
-}
-
-.logo-color {
+  text-decoration: none;  
   color: var(--main-focus);
 }
 
-.menu {
+.logo-part--dark{
+  color: #000000;
+}
+
+.logo-part--light{
+  color: #FFFFFF;
+}
+
+
+.navigation {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.menu-list {
+.menu {
   display: flex;
-  margin-left: 93px;
-  .current {
-    color: var(--main-focus);
-  }
 }
 
-.menu-list-item {
+.menu__connect{
+    margin-left: 93px;
+}
+
+.current {
+    color: var(--main-focus);
+  }
+
+.menu__item {
   position: relative;
   &:not(:last-child) {
     margin-right: 50px;
   }
 }
 
-.menu-link {
+.menu__link {
   display: block;
   padding: 32px 0;
   color: var(--main-color);
@@ -70,15 +75,18 @@
   border-radius: 2px;
 }
 
-.contact {
-  margin-left: auto;
+.contact {  
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.contact-icon {
+.contact__connect{
+  margin-left: auto;
+}
+
+.contact__icon {
   fill: var(--secondery-color);
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -86,13 +94,13 @@
   &:focus {
     fill: var(--main-focus);
   }
-  .contact-link:hover &,
-  .contact-link:focus & {
+  .contact__link:hover &,
+  .contact__link:focus & {
     fill: var(--main-focus);
   }
 }
 
-.contact-link {
+.contact__link {
   color: var(--secondery-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:first-child {

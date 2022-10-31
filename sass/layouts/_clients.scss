@@ -4,7 +4,7 @@
     gap: 30px;
 }
 
-.client-card-link {
+.clients-list__link {
     height: 92px;
     padding: 16px 32px;
     background-color: var(--main-bg-color);
@@ -16,16 +16,21 @@
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-card:last-child {
+.clients-list__item:last-child {
     margin-right: 0;
 }
 
-.client-card-link:hover,
-.client-card-link:focus {
+.clients-list__link:hover,
+.clients-list__link:focus {
     border-color: var(--main-focus);
 }
 
-.client-card-link:hover .client-soc-icon,
-.client-card-link:focus .client-soc-icon {
+.clients-list__icon {
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-list__link:hover .clients-list__icon,
+.clients-list__link:focus .clients-list__icon {
     fill: var(--main-focus);
 }

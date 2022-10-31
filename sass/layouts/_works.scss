@@ -1,6 +1,6 @@
-.work-title,
-.team-title,
-.clients-title {
+.work__title,
+.team__title,
+.clients__title {
     margin-bottom: 50px;
     text-align: center;
     font-weight: 700;
@@ -15,11 +15,11 @@
     justify-content: space-between;
 }
 
-.work-link {
+.work-list__item {
     position: relative;
 }
 
-.work-block {
+.work-list__block {
     height: 70px;
     width: 100%;
     background: rgba(47, 48, 58, 0.8);
@@ -27,7 +27,7 @@
     bottom: 0;
 }
 
-.work-text {
+.work-list__text {
     padding: 27px;
     font-weight: 700;
     font-size: 14px;

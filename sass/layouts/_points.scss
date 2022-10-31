@@ -1,14 +1,18 @@
-.points.section {
+.points.section{
     padding-bottom: 0;
 }
 
-.points-list {
+.point-list {
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 
-.point-icon {
+.point-list__item {
+    width: 25%;
+}
+
+.point-list__icon {
     height: 120px;
     display: flex;
     background-color: #F5F4FA;
@@ -18,11 +22,7 @@
     justify-content: center;
 }
 
-.point-item {
-    width: 25%;
-}
-
-.point-title {
+.point-list__title {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -32,7 +32,7 @@
     color: var(--main-color);
 }
 
-.point-text {
+.point-list__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
