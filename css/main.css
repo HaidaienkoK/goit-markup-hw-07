@@ -630,7 +630,7 @@ body {
   flex-direction: row;
 }
 
-.footer-contact {
+.footer-contact__connect {
   margin-right: 70px;
 }
 
@@ -642,13 +642,16 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-top: 20px;
 }
 .footer-address > a {
   margin-bottom: 9px;
 }
 .footer-address > a:last-child {
   margin-bottom: 0;
+}
+
+.footer-address__connect {
+  margin-top: 20px;
 }
 
 .footer-address__map {
@@ -667,12 +670,15 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 20px;
 }
 
-.footer-soc {
+.footer-soc__connect {
   margin-top: 12px;
   margin-right: 93px;
+}
+
+.footer-text__connect {
+  margin-bottom: 20px;
 }
 
 .footer-soc__list {
@@ -703,7 +709,7 @@ body {
   background-color: var(--main-focus);
 }
 
-.footer-send {
+.footer-send__connect {
   margin-top: 12px;
 }
 
